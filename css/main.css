@@ -13,7 +13,7 @@
 nav {  
     display: flex;
     justify-content: space-around; 
-    padding-top: 20px;
+    padding-top: 30px;
     
     background-color: #00082F; 
     box-shadow:  7px 7px 10px rgba(75, 74, 74, 0.5);  
@@ -41,10 +41,8 @@ nav {
         }
     }
     .nav_foto {
-        display: flex;
-              
-        img {
-            
+        display: flex;              
+        img {            
             max-width: 310px;                
             box-shadow:  7px 7px 10px rgba(0,0,0,0.5);
          }      
@@ -53,13 +51,12 @@ nav {
 .kontakt {
     margin:30px 0 ;
     ul {
-
         display: flex;
         justify-content: center;
         .nav_logos {
             max-width: 30px;
             margin:20px 30px;
-        }
+        }    
     }
     
 }
@@ -112,8 +109,7 @@ header {
 footer {
     background-color: #00082F; 
     min-height: 500px;
-    box-shadow:  0px 0px 30px rgba(68, 68, 68, 0.7);
-    
+    box-shadow:  0px 0px 30px rgba(68, 68, 68, 0.7);    
 }
 .footer_title {
     padding:50px 0 25px 0 ;
@@ -168,9 +164,12 @@ footer {
 .vertikal {
     border-left: 4px solid rgb(0,0,0,0.2);
     margin:10px 0; 
-    box-shadow:  0px 0px 10px rgba(17, 17, 17, 1); 
-    
+    box-shadow:  0px 0px 10px rgba(17, 17, 17, 1);
+}
 
+/*animation*/
+.anime{
+    transition: transform 0.4s ease;
 }
 
 
