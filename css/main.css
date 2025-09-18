@@ -9,7 +9,6 @@
 .wrapper {    
     margin:0 200px;
 }
-
 nav {  
     display: flex;
     justify-content: space-around; 
@@ -25,10 +24,8 @@ nav {
             text-align: center;
             img {
                 max-width: 250px;
-            }
-            
-        }
-                
+            }            
+        }                
         .nav_text{
             font-size: 12px;
             margin-left: 10px;
@@ -64,8 +61,7 @@ nav {
             max-width: 30px;
             margin:20px 30px;
         }    
-    }
-    
+    }    
 }
 .nav_kontent{
     display: flex;
@@ -124,7 +120,6 @@ footer {
         color:#ff00008c
     } 
 }
-
 .footer_kontent{
     display: flex;
     justify-content:center;
@@ -170,7 +165,6 @@ footer {
     margin:10px 0; 
     box-shadow:  0px 0px 10px rgba(17, 17, 17, 1);
 }
-
 /*animation*/
 .anime{
     transition: transform 0.4s ease;
