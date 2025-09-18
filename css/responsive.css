@@ -36,7 +36,7 @@
             .header_bloks{
                 margin:10px 0;
                 width: 500px;
-                height: 120px;
+                height: 140px;
                 h3 {                
                     margin: 5px 0;
                 }
@@ -107,9 +107,9 @@
 
     .header_info{
         
-        .header_bloks{           
-            padding: 25px 15px;
-            height: auto;           
+        .header_bloks{  
+            margin:5px 0;         
+            padding: 25px 15px;          
             h3 {                
                 font-size: 17px;
             }          
