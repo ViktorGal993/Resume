@@ -1,0 +1,125 @@
+/*Auflösung weniger als 1200*/
+@media(max-width:1200px) {
+    .wrapper {    
+    margin:0 100px;
+}
+.nav_foto { 
+    align-items: center;            
+        img {            
+            max-width: 250px;
+            max-height: 400px;                
+        }      
+    }
+}
+.footer_kontent{
+    .footer_infobox{        
+        width: 300px;            
+    } 
+} 
+
+/*Auflösung weniger als 920*/
+@media(max-width:920px){
+    .wrapper {    
+    margin:0 70px;
+}
+.kontakt {   
+    ul {        
+        justify-content: end;       
+    }    
+}
+    header {    
+        .header_title {        
+            font-size:25px;
+        }
+        .header_info{
+            flex-wrap: wrap;
+            .header_bloks{
+                margin:10px 0;
+                width: 500px;
+                height: 120px;
+                h3 {                
+                    margin: 5px 0;
+                }
+                p {
+                    font-size: 11px;          
+                }
+            }
+        }      
+    }
+}
+
+/*Auflösung weniger als 780*/
+@media(max-width:780px){
+
+    .footer_kontent{   
+        flex-wrap: wrap;
+
+        .footer_infobox{
+            margin: 25px 0;
+            width: 500px;               
+        }
+    }
+}
+.vertikal {
+    display: none;
+}
+
+/*Auflösung weniger als 780*/
+@media(max-width:680px){
+    .wrapper {    
+    margin:0 50px;
+}
+    nav {
+        .nav_foto{
+            display: none;
+        }
+        .n_info {
+            max-width: 750px;
+            h1 {
+                margin:  20px 0px;                  
+            }
+            .nav_foto_smart{ 
+                display: block; 
+            }
+        }   
+    }    
+}
+/*Auflösung weniger als 590*/
+@media(max-width:590px){
+    .footer_kontent{       
+        .footer_infobox{
+            margin: 20px 0;
+            width: 350px;               
+        }
+    }
+}
+
+/*Auflösung weniger als 440*/
+@media(max-width:440px){
+    .wrapper {    
+        margin:0 35px;
+    }
+    .kontakt {   
+        ul {        
+            justify-content: center;       
+        }    
+    }
+
+    .header_info{
+        
+        .header_bloks{           
+            padding: 25px 15px;
+            height: auto;           
+            h3 {                
+                font-size: 17px;
+            }          
+        }
+    }
+    
+    .footer_kontent{       
+        .footer_infobox{
+            margin: 20px 0;
+            width: 250px;               
+        }
+    }
+}
